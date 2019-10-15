@@ -1621,6 +1621,9 @@ span.input {
       .mobile-btn span:not(:last-child) {
         margin-bottom: 7px; }
 
+  .header {
+    z-index: 5; }
+
   .nav {
     position: fixed;
     width: 100%;
