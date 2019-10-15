@@ -1,0 +1,16 @@
+/*clients*/ 
+.clients{
+	padding-bottom: 6.25em;
+}
+.clients__list{
+	margin: 0 -1em;
+	justify-content: center;
+	li{
+		width: 16.66%;
+		padding: 0 1em;
+		margin-bottom: 2em;
+		img{
+			max-width: 100%
+		}
+	}
+}

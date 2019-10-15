@@ -11,6 +11,13 @@
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+	.description__banner{
+		width: 35em;
+	}
+	.description__descr{
+		width: calc(100% - 35em);
+		margin-left: 31em;
+	}
 } 
 /*1360*/ 
 @media(max-width: 1000px){
@@ -120,6 +127,59 @@
 	.features__descr__text{
 		padding-left: 50px;
 	}
+	.technology__item .ico{
+		width: 5em;
+		height: 5em;
+		margin: 0 auto 1.5em;
+		img{
+			width: 100%;
+		}
+	}
+	.offer__item{
+		font-size: 1.25rem;
+	}
+	.description__banner{
+		width: 100%;
+		position: relative;
+		transform: translateY(0);
+	}
+	.description__descr{
+		padding-left: 80px;
+		width: 100%;
+		margin-left: 0;
+		padding-left: 80px;
+		.notice{
+			left: -40px;
+			top: 140px;
+		}
+	}
+	.description__descr{
+		font-size: 1.25em;
+	}
+	.service__item{
+		font-size: 14px;
+	}
+	.service__list{
+		margin: 0 -1em;
+		min-width: 900px;
+		flex-wrap: nowrap;
+		& > li{
+			width: 300px;
+			padding: 0 1em;
+		}
+	}
+	.service__item__title{
+		font-size: 2.2em;
+	}
+	.service__item__subtitle{
+		font-size: 1.2em;
+	}
+	.service{
+		.container{
+			overflow-y: auto;
+		}
+	}
+
 }
 /*1000*/ 
 @media(max-width: 768px){
@@ -138,6 +198,28 @@
 	}
 	.features .text{
 		font-size: 23rem;
+	}
+	.technology__top__text{
+		font-size: 1.5rem;
+	}
+	.technology__top__descr::before{
+		display: none;
+	}
+	.technology__top__title{
+		font-size: 3.5rem;
+	}
+	.technology__top__descr{
+		width: 80%;
+		margin-left: 20%;
+	}
+	.technology__item__title{
+		font-size: 1.25rem;
+	}
+	.offer__item{
+		font-size: 1.5rem;
+	}
+	.offer__item .ico{
+		height: 5em;
 	}
 }
 /*768*/ 
@@ -202,6 +284,86 @@
 	.features__descr .btn{
 		margin-top: 70px;
 	}
+	.technology__top__img{
+		display: none;
+	}
+	.technology__top__descr{
+		width: 100%;
+		margin-left: 0;
+		transform: translateX(0);
+	}
+	.technology__top{
+		margin-top: 20px;
+	}
+	.technology__top__title{
+		font-size: 5rem;
+		&::before{
+			left: -1em;
+		}
+	}
+	.technology__top__text{
+		font-size: 14px;
+	}
+	.technology-list{
+		margin-bottom: 50px;
+		li{
+			width: 33.333%;
+			flex-grow: 1;
+		}
+	}
+	.technology__item{
+		padding: 20px 10px;
+	}
+	.technology__item .ico{
+		width: 40px;
+		height: 40px;
+		margin-bottom: 10px;
+	}
+	.technology__item__title{
+		font-size: 12px;
+	}
+	.technology-descr__title{
+		font-size: 10rem;
+	}
+	.technology-descr__text{
+		font-size: 2rem;
+	}
+	.offers__list{
+		li{
+			width: 50%;
+			border: none !important;
+			border-bottom: 1px solid #cad2d7 !important; 
+			margin-bottom: 2em;
+		}
+	}
+	.ico-padding-top{
+		margin-top: 0;
+	}
+	.offer__item{
+		padding-top: 20px;
+	}
+	.offer__item,
+	.description__descr{
+		font-size: 12px;
+	}
+	.description__banner{
+		font-size: 1.5rem;
+		text-align: center;
+		padding: 40px 20px;
+		&::before{
+			display: none;
+		}
+	}
+	.clients__list {
+		margin: 0 -5px;
+	}
+	.clients__list li{
+		width: 25%;
+		padding: 0 5px;
+		img{
+			width: 80%;
+		}
+	}
 }
 /*767*/ 
 
@@ -231,6 +393,42 @@
 			width: 50%;
 		}
 	}
+	.offer__item{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.offers__list li{
+		width: 100%;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+	.description__descr .notice{
+		left: -60px;
+	}
+	.description__descr{
+		padding-left: 30px;
+	}
+	.description__descr__title::before{
+		left: 0;
+		top: -1em;
+	}
+	.description__banner{
+		font-size: 2.5rem;
+		.btn--arrow{
+			padding-left: 5em;
+		}
+	}
+	.service-img::before{
+		width: calc(100% - 1em);
+		height: calc(100% - 1em);
+		border: .5em solid #fff
+	}
+	.service__item{
+		font-size: 12px;
+	}
+	.clients__list li{
+		width: 33.333%;
+	}
 }
 /*440*/ 
 @media(max-width: 360px){
@@ -239,6 +437,30 @@
 	}
 	.top-screen__title .h1{
 		font-size: 4em;
+	}
+	.technology-list{
+		li{
+			width: 50%;
+		}
+	}
+	.technology-descr__title{
+		font-size: 9rem;
+		margin-bottom: 10px;
+	}
+	.technology-descr{
+		padding-left: 30px;
+	}
+	.technology-descr__text{
+		font-size: 2.5rem;
+	}
+	.service__list{
+		margin: 0 -1em;
+		min-width: 720px;
+		flex-wrap: nowrap;
+		& > li{
+			width: 240px;
+			padding: 0 1em;
+		}
 	}
 }
 /*360*/ 
