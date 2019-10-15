@@ -510,6 +510,10 @@
 	.figures-group{
 		display: none;
 	}
+	.about__top__descr::before{
+		left: 0;
+		top: -1em;
+	}
 }
 /*440*/ 
 @media(max-width: 360px){
