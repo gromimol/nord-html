@@ -1,4 +1,17 @@
 /*Footer*/ 
+.wrapper{
+	position: relative;
+}
 .footer{
-	
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #fff;
+	z-index: 2;
+	padding-bottom: 30px;
+}
+.copyright{
+	font-size: 13px;
+	margin-left: 30px;
 }

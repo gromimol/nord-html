@@ -25,4 +25,15 @@ $(document).ready(function () {
         $('body,html').animate({scrollTop: top}, 1500);
 
     });
+
+    // input
+    $('.input__field').change(function() {
+    	var $this = $(this);
+    	var $thisInput = $this.find('input');        
+    	if ($this.val() !== "") {
+    		$this.addClass('input--filled');
+    	} else {
+    		$this.removeClass('input--filled');
+    	}
+    });
 })
