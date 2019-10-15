@@ -1,1 +1,37 @@
 /*Header*/ 
+.header{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	padding: 2.8125em 2.8125em 0;
+	z-index: 2;
+}
+.logo{
+	img{
+		width: 19.375em;
+	}
+}
+.header__right{
+	.btn{
+		margin-left: 2em;
+	}
+}
+.menu{
+	li{
+		
+		a{
+			display: block;
+			font-size: 13px;
+			padding: 1em 1.875em;
+			border-radius: 20px;
+			text-transform: uppercase;
+			letter-spacing: 2.6px;
+			color: #fff;
+			&:hover{
+				background-color: var(--blue);
+				color: #fff;
+			}
+		}
+	}
+}
