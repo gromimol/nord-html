@@ -1988,7 +1988,7 @@ span.input {
 /*767*/
 @media (max-width: 440px) {
   .logo img {
-    width: 100px; }
+    width: 170px; }
 
   .header__right .btn--lt {
     font-size: 9px;
@@ -2048,6 +2048,9 @@ span.input {
     display: none; } }
 /*440*/
 @media (max-width: 360px) {
+  .logo img {
+    width: 120px; }
+
   .top-screen {
     font-size: 2rem; }
 
