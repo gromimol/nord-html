@@ -8,7 +8,15 @@ span.input {
     // margin: 1em;
     // max-width: 350px;
     width: 100%;
-    vertical-align: top;  
+    vertical-align: top; 
+    &.error{
+        .input--filled + .input__label::after{
+            background-color: #ca0513 !important;
+        }
+        .error-text{
+            display: block;
+        }
+    } 
 }
 
 .input__field {
@@ -173,4 +181,14 @@ span.input {
 
 .input__field--nariko:focus + .input__label--nariko:after{
     background-color:  #009bdb;
+}
+.error-text{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    color: #ca0513;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: none;
 }

@@ -51,8 +51,12 @@
 	.contact__title{
 		font-size: 100px;
 	}
-	.contact__subtitle{
+	.contact__subtitle,
+	.thanks-popup__title{
 		font-size: 40px;
+	}
+	.thanks-popup__text{
+		font-size: 16px;
 	}
 }
 /*1200*/ 
@@ -552,6 +556,25 @@
 			width: 240px;
 			padding: 0 1em;
 		}
+	}
+	.thanks-popup__title{
+		font-size: 34px;
+	}
+	.thanks-popup__text{
+		font-size: 14px;
+		letter-spacing: .5px;
+	}
+	.thanks-popup__img{
+		margin-bottom: 15px;
+		img{
+			width: 80px;
+		}
+	}
+	.btn{
+		font-size: 10px;
+	}
+	.btn--arrow{
+		padding-left: 3.25em;
 	}
 }
 /*360*/ 
